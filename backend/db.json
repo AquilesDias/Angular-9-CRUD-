@@ -12,13 +12,8 @@
     },
     {
       "id": 3,
-      "name": "geladeira",
+      "name": "Samsung S20",
       "price": 5000.89
-    },
-    {
-      "name": "geladeira",
-      "price": "1998.69",
-      "id": 4
-    }
+    }   
   ]
 }
