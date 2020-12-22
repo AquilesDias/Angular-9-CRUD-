@@ -1,8 +1,38 @@
-<button mat-raised-button (click)="createProduct()" class="botaoSalvar">
-    Salvar
-</button>
-    
-<button mat-raised-button (click)="cancel()" class="botaoCancelar" >
-    Cancelar
-</button>
+<mat-card>
+
+
+    <mat-card-title>
+
+        <form>
+
+            <mat-form-field>
+                
+               <input matInput placeholder="Produto"
+               name="name"
+               [(ngModel)]="product.name"
+               >
+            </mat-form-field>
+
+            <mat-form-field>
+                <input matInput placeholder="Preço  (R$)"
+                [(ngModel)]="product.price"
+                >
+            </mat-form-field>
+
+        </form>
+
+    </mat-card-title>
+
+    <!--### BOTAO SALVAR E CANCELAR ###-->
+    <button mat-raised-button (click)="createProduct()" class="botaoSalvar">
+        Salvar
+    </button>
+        
+    <button mat-raised-button (click)="cancel()" class="botaoCancelar" >
+        Cancelar
+    </button>
+
+
+</mat-card>
+
 
