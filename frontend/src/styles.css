@@ -14,3 +14,18 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .botaoadd{
     color: rgb(0, 119, 255);
 }
+
+.botaoSalvar {
+    background:  #0080ff;
+    color: white;
+}
+
+.botaoCancelar{
+    background:  #d72828;
+    color: white;
+}
+
+.snackBarColor{
+    background-color:#0080ff;
+    color: white;
+}
