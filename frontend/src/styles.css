@@ -25,6 +25,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: white;
 }
 
+.botaoAtualizar{
+    background: #F9A825;
+    color: white;
+}
+
 .snackBarColor{
     background-color:#0080ff;
     color: white;
