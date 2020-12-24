@@ -1,7 +1,6 @@
 <mat-card>
-    
-    
-    <mat-card-title> Novo Produto </mat-card-title>
+
+    <mat-card-title> Excluir Produto </mat-card-title>
 
         <form>
 
@@ -9,29 +8,28 @@
                 
                <input matInput placeholder="Produto"
                name="name"
-               [(ngModel)]="product.name"
-               >
+               [value]="product.name"
+               disabled>
             </mat-form-field>
 
             <mat-form-field>
                 <input matInput placeholder="Preço  (R$)"
-                [(ngModel)]="product.price"
-                >
+                [value]="product.price"
+                disabled>
             </mat-form-field>
 
         </form>
 
 
     <!--### BOTAO SALVAR E CANCELAR ###-->
-    <button mat-raised-button (click)="createProduct()" class="botaoSalvar">
-        <i class="material-icons">save</i>
-        Salvar
+    <button mat-raised-button (click)="deleteProduct()" class="botaoSalvar">
+        <i class="material-icons">delete</i>
+        Excluir
     </button>
         
     <button mat-raised-button (click)="cancel()" class="botaoCancelar" >
         Cancelar
     </button>
-
 
 </mat-card>
 
