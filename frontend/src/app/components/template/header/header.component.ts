@@ -1,5 +1,5 @@
 import { HeaderService } from './header.service';
-import { HeaderData } from './../footer/header-data.model';
+import { HeaderData } from './header-data.model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
