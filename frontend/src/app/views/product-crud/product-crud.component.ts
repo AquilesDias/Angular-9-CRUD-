@@ -14,7 +14,7 @@ export class ProductCrudComponent implements OnInit {
       headerService.headerData={
 
         title: 'Cadastro de Produtos',
-        icon: 'storeFront',
+        icon: 'storefront',
         routeUrl: '/products'  
       }
     }
